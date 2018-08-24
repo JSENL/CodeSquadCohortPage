@@ -50,7 +50,6 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-size: medium;
 	font-weight: 700;
-	overflow-x: hidden;
 }
 
 .border1 {
@@ -114,7 +113,7 @@ body {
 	margin: 1% 35%;
 }
 
-.card-deck {
+/*.card-deck {
 	flex-flow: row wrap;
 }
 
@@ -125,7 +124,7 @@ body {
 	margin-right: 15px;
 	margin-bottom: 0;
   margin-left: 15px;
-}
+}*/
 
 .card-header {
     padding: .75rem 1.25rem;
@@ -171,17 +170,6 @@ body {
 
 .center {
 	text-align: center;
-}
-.column {
-    float: left;
-    width: 25%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 /*div {
@@ -666,38 +654,3 @@ select {
 	    column-gap: 1.25rem;
 	}
 }
-@media (min-width: 576px) {
-	#sprcohort2018 #sprcohort2018i {
-		-webkit-column-count: 1;
-    	-moz-column-count: 1;
-    	column-count: 1;
-	    -webkit-column-gap: 1.00rem;
-	    -moz-column-gap: 1.00rem;
-	    column-gap: 1.00rem;
-	}
-}
-
-
-.card-bodytext-center
-{
-
-	height:100px;
-}
-
-#sprcohort2018
-{
-	width: 95%;
-	height: 50%;
-}
-
-#danger
-{
-	width: 400px;
-	height: 500px;
-}
-#sprcohort2018i
-{
-	width: 90%;
-	height: 50%;
-}
-
