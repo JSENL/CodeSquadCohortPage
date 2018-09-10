@@ -1,0 +1,593 @@
+a {
+	color: rgb(160,160,158);
+}
+
+.active {
+	background-color: rgb(203,53,36);
+}
+
+/*.bizBak {
+	background: url('../img/img_8085_crop2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}*/
+
+.blackSlant {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-top: 280px solid transparent;
+	border-right: 80px solid black;
+	border-bottom: 0; 
+}
+
+.blackSlant2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+  width: 0; 
+  height: 0; 
+  border-top: 350px solid transparent;
+  border-right: 80px solid black;
+  border-bottom: 0; 
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: medium;
+	font-weight: 700;
+}
+
+.border1 {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.btn {
+	border-radius: 0;
+}
+
+.btnWht {
+	/* red text on white */
+	color: rgb(203,53,36);
+	background-color: white;
+	padding: 1% 1.4%;
+}
+
+.btnRed {
+	/* white text on red */
+	color: white;
+	background-color: rgb(203,53,36);
+}
+
+#btn1stLine {
+	padding: 0;
+	margin: 0;
+}
+
+#btn2ndLine {
+	font-size: small;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.card {
+	border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  display: inline-block;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.card td {
+	line-height: 1.7;
+}
+
+/*.card-deck {
+	flex-flow: row wrap;
+}
+
+.card-deck .card {
+	display: flex;
+	flex-direction: column;
+	flex: 1 0 0%;
+	margin-right: 15px;
+	margin-bottom: 0;
+  margin-left: 15px;
+}*/
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    font-size: large;
+    color: white;
+    background-color: #343434;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.card-img-float {
+	float: left;
+}
+
+.card-img-overlay{
+	padding: 0;
+}
+
+.card-noBorder {
+	border-style: none;
+}
+
+.cardPtr {
+	top: 8%;
+}
+
+.card-title {
+	font-size: x-large;
+	text-transform: uppercase;
+	line-height: 1.1;
+	margin:	0;
+}
+
+.card-text {
+	margin: 1.25rem;
+	column-count: 1;
+}
+
+.center {
+	text-align: center;
+}
+
+.divSpacer {
+	height: 600px;
+}
+
+.FBbutton {
+	position: absolute;
+	left: 30%;
+	height: 54px;
+	width: auto;
+	color: white;
+	background-color: rgb(59,89,152); /* FaceBook blue*/
+	text-decoration: none;
+	font-size: x-large;
+	border: none;
+	padding: 0 2%;
+	margin: auto;
+	/*cursor: pointer;	*/
+}
+
+.footerFont {
+	color: rgb(160,160,158);
+}
+
+.footerBak {
+    background: url('../img/blackBak.png');
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.footerLogo {
+    background: url('../img/logo_inverse.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 80px;
+}
+
+.footerHead {
+	color: white;
+	margin: 2em auto 0.5em;
+	text-transform: uppercase;
+	font-size: small;
+}
+
+.footerBtn {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: medium;
+	width: 100%;
+	height: 2.5em;
+	margin: 5% auto 8%;
+	border: none;
+	cursor: pointer;
+}
+
+h1 {
+	color: black;
+	font-size: xx-large;
+	font-weight: bold;
+	line-height: 1.3;
+	margin: 3% 8% 2% 8%;
+}
+
+h2 {
+	font-size: xx-large;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: x-large;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h4 {
+	/*color: white;*/
+	font-size: x-large;
+	text-transform: uppercase;
+	margin:	0;
+	padding: 10% 0 0 10%; /*top right bottom left*/
+}
+
+h5 {
+	font-size: large;
+	font-weight: bold;
+}
+
+.headlineBtn {
+	/*height: 12%;*/
+	width: 15%;
+	text-decoration: none;
+	font-size: large;
+	border: none;
+	margin: 2% auto;
+	cursor: pointer;
+}
+
+.headlineBtn1 {
+	position: absolute;
+	top: 60%;
+	left: 31%;
+}
+
+.headlineBtn2 {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	/*padding: 0.5% 1.4% 0.5% 1.4%;*/
+	padding: 0;
+}
+
+.headlineTxt {
+	position: absolute;
+	color: white;
+	font-size: 3.9vw;
+	letter-spacing: 2.3px;
+	text-shadow: 1px 1px black;
+}
+
+.headlineTxtAbout {
+	top: 44%;
+	left: 29%;
+}
+
+.headlineTxtHome {
+	top: 37%;
+	left: 12.5%;
+}
+
+.headlineTxt2 {
+	/* Sub-head */
+	font-size: 2.4vw;
+	left: 10%;
+}
+
+.headlineTxtBiz {
+	top: 37%;
+	left: 10%;
+}
+
+.headlineTxtStudents {
+	top: 32%;
+	left: 31%;
+}
+
+.headlineTxtVol {
+	color: black;
+	font-size: 3vw;
+	top: 16%;
+	left: 58%;
+}
+
+.height400 {
+	height: 350px;
+}
+
+img {
+	padding: 0;
+	margin: 0;
+}
+
+input[type=text] {
+	color: rgb(160,160,158);
+	width: 100%;
+	background-color: rgb(36,34,35);
+	padding: 12px 0px;
+	border: none;
+	border-bottom: 1px solid rgb(160,160,158);
+}
+
+.joinUsBtn {
+		position: absolute;
+	left: 30%;
+	height: 20%;
+	width: 40%;
+	text-decoration: none;
+	font-size: large;
+	border: none;
+	margin: auto;
+	cursor: pointer;
+}
+
+.maxHeight {
+	height: 280px;
+}
+
+.momentumBak {
+    background: url('../img/img_8257_momentum3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.momentumBlurbHead {
+	text-transform: uppercase;
+	/*margin: -1% 0;*/
+	/*padding: 0;*/
+}
+
+.momentumBlurbTxt {
+	/*position: relative;*/
+	/*top: 50%;*/
+	font-size: large;
+	line-height: 1.5;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+.momentumHeadline {
+	position: absolute;
+	text-align: center;
+	top: 5%;
+	left: 40%;
+}
+
+.momentumRed {
+	color: rgb(203,53,36);
+	font-size: 3em;
+	padding-top: 0.5%;
+	padding-bottom: 1%;
+}
+
+.momentumTxt {
+	position: absolute;
+	font-size: large;
+}
+
+/* Styling for homepage momentum bullet list */
+.momentumUL {
+	padding: 0 5%;
+	margin: 0;
+}
+
+.navbar {
+	font-size: 1.1em;
+	margin-bottom: 0;
+}
+
+.navbar-default {
+	border-style: none;
+	background-color: white;
+}
+
+.navbar-nav li {
+	/*top right bottom left*/
+	/*padding: 3% 1% 3% 1%;*/
+	padding: 10px 15px;
+}
+
+/*.navbar-nav li a {
+	padding: 3% 5%;
+}*/
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: rgb(203,53,36);
+	color: white;
+}
+
+.navbar-brand {
+	padding: 0;	
+}
+
+p {
+	/* content */
+	font-size: medium;
+	line-height: 1.7;
+	/* border */
+	/* padding */
+	/* margin */
+	margin: 0 auto;
+}
+
+.padding0 {
+	padding: 0;
+}
+
+.padding5 {
+	padding: 3% 0;
+}
+
+.positionRel {
+	position: relative;
+}
+
+/*.positionAbsolute {
+	position: absolute;
+	top: 2%;
+	left: 40%;
+}
+*/
+
+.pOverflow {
+	line-height: 1.7;
+	font-size: medium;
+	padding: 0 1.25rem;
+}
+
+.red-bar {
+	color: white;
+	font-size: large;
+	background-color: rgb(203,53,36);
+	text-align: center;
+	padding: 1%;
+	margin: 0 auto;
+}
+
+.redSlant {
+	position: absolute;
+	top: 0;
+	left: 0;
+  width: 0; 
+  height: 0; 
+  border-right: 5px solid transparent;
+  border-bottom: 280px solid transparent;
+  border-left: 80px solid #CB3524; /* CodeSquad red in hex code */
+}
+
+.redSlant2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+  width: 0; 
+  height: 0; 
+  border-right: 5px solid transparent;
+  border-bottom: 350px solid transparent;
+  border-left: 80px solid #CB3524; /* CodeSquad red in hex code */
+}
+
+select {
+	color: rgb(160,160,158);
+	background-color: rgb(36,34,35);
+	/*align-self: right;*/
+	padding: 12px 0px;
+	border: none;
+}
+
+.slantBoxBlk {
+	background-color: black;
+	color: white;
+	padding: 1.5%;
+}
+
+.slantBoxRed {
+	background-color: rgb(203,53,36);
+	color: white;
+	padding: 1.5%;
+}
+
+.slantBoxRed p, .slantBoxBlk p {
+	color: rgb(242,240,240);
+}
+
+.slantIndex {
+    background: url('../img/img_8105_crop2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slantBiz {
+    background: url('../img/img_9511.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slantStudent {
+    background: url('../img/img_8089_crop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.top-red-line {
+	height: 5px;
+	background-color: rgb(203,53,36);
+}
+
+.underline {
+	padding-bottom: 1%;
+	text-decoration: underline rgb(203,53,36);
+	/*width: 100%;*/
+/*	border-style: solid;
+	border-color: rgb(203,53,36);
+	border-width: 1px;*/
+}
+
+.width60 {
+	width: 60%;
+}
+
+.width80 {
+	width: 80%;
+}
+
+@media only screen and (max-width: 700px) {
+	.headlineTxt {
+		font-size: x-large;
+	}
+	.headlineTxtHome {
+		left: 4%;
+	}
+	.headlineTxt2 {
+		font-size: small;
+	}
+	.headlineTxtAbout {
+		/*top: 10%;*/
+		left: 14%;
+	}
+	.headlineBtn {
+    /* For mobile phones: */
+    	display: none;
+	}
+	.red-bar {
+		color: rgb(203,53,36);
+	}
+	h1, h2 {
+		font-size: large;
+	}
+	p {
+		font-size: small;
+	}
+	.pOverflow {
+		font-size: small;
+	}
+
+	.slantBoxRed, .slantBoxBlk {
+		padding: 3%;
+	}
+	.joinUsBtn, .FBbutton {
+		font-size: large;
+	}
+	.momentumRed {
+		font-size: 2em;
+	}
+	.width60, .width80 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 576px) {
+	.card-columns {
+		-webkit-column-count: 2;
+    	-moz-column-count: 2;
+    	column-count: 2;
+	    -webkit-column-gap: 1.25rem;
+	    -moz-column-gap: 1.25rem;
+	    column-gap: 1.25rem;
+	}
+}
+

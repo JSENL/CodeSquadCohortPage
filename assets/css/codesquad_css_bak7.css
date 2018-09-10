@@ -1,0 +1,397 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: medium;
+	font-weight: 700;
+}
+
+.border1 {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.top-red-line {
+	height: 5px;
+	background-color: rgb(203,53,36);
+}
+
+.navbar {
+	font-size: 1.1em;
+	margin-bottom: 0;
+}
+
+.active {
+	background-color: rgb(203,53,36);
+}
+
+.navbar-default {
+	border-style: none;
+	background-color: white;
+}
+
+.navbar-nav li {
+	/*top right bottom left*/
+	/*padding: 3% 1% 3% 1%;*/
+	padding: 10px 15px;
+}
+
+/*.navbar-nav li a {
+	padding: 3% 5%;
+}*/
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: rgb(203,53,36);
+	color: white;
+}
+
+.navbar-brand {
+	padding: 0;	
+}
+
+img {
+	padding: 0;
+	margin: 0;
+}
+
+.positionRel {
+	position: relative;
+}
+
+.positionAbsolute {
+	position: absolute;
+	top: 10%;
+	/*left: 40%;*/
+}
+
+.divSpacer {
+	height: 600px;
+}
+
+.headlineTxt {
+	position: absolute;
+	color: white;
+	font-size: 3.9vw;
+	letter-spacing: 2.3px;
+	text-shadow: 1px 1px black;
+}
+
+.headlineTxtHome {
+	top: 37%;
+	left: 12.5%;
+}
+
+.headlineTxt2 {
+	/* Sub-head */
+	font-size: 2.4vw;
+	left: 10%;
+}
+
+.red-bar {
+	color: white;
+	font-size: large;
+	background-color: rgb(203,53,36);
+	text-align: center;
+	padding: 1%;
+	margin: 0 auto;
+}
+
+.underline {
+	padding-bottom: 1%;
+	text-decoration: underline rgb(203,53,36);
+	/*width: 100%;*/
+/*	border-style: solid;
+	border-color: rgb(203,53,36);
+	border-width: 1px;*/
+}
+
+.headlineTxtBiz {
+	top: 37%;
+	left: 10%;
+}
+
+.headlineTxtStudents {
+	top: 32%;
+	left: 31%;
+}
+
+.headlineTxtAbout {
+	top: 44%;
+	left: 29%;
+}
+
+.headlineBtn {
+	/*height: 12%;*/
+	width: 15%;
+	text-decoration: none;
+	font-size: large;
+	border: none;
+	margin: 2% auto;
+	cursor: pointer;
+}
+
+.btnWht {
+	/* red text on white */
+	color: rgb(203,53,36);
+	background-color: white;
+	padding: 1% 1.4%;
+}
+
+.btnRed {
+	/* white text on red */
+	color: white;
+	background-color: rgb(203,53,36);
+}
+
+.headlineBtn1 {
+	position: absolute;
+	top: 60%;
+	left: 31%;
+}
+
+.headlineBtn2 {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	/*padding: 0.5% 1.4% 0.5% 1.4%;*/
+	padding: 0;
+}
+
+#btn1stLine {
+	padding: 0;
+	margin: 0;
+}
+
+#btn2ndLine {
+	font-size: small;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.joinUsBtn {
+	position: absolute;
+	left: 30%;
+	height: 20%;
+	width: 40%;
+	text-decoration: none;
+	font-size: large;
+	border: none;
+	margin: auto;
+	cursor: pointer;
+}
+
+.FBbutton {
+	position: absolute;
+	left: 30%;
+	height: 54px;
+	width: auto;
+	color: white;
+	background-color: rgb(59,89,152); /* FaceBook blue*/
+	text-decoration: none;
+	font-size: x-large;
+	border: none;
+	padding: 0 2%;
+	margin: auto;
+	/*cursor: pointer;	*/
+}
+
+.slantBoxRed {
+	background-color: rgb(203,53,36);
+	color: white;
+	padding: 1.5%;
+}
+
+.slantBoxBlk {
+	background-color: black;
+	color: white;
+	padding: 1.5%;
+}
+
+.slantBoxRed p, .slantBoxBlk p {
+	color: rgb(242,240,240);
+}
+
+.redSlant {
+	position: absolute;
+	top: 0;
+	left: 0;
+  width: 0; 
+  height: 0; 
+  border-right: 5px solid transparent;
+  border-bottom: 280px solid transparent;
+  border-left: 80px solid #CB3524; /* CodeSquad red in hex code */
+}
+
+.blackSlant {
+	position: absolute;
+	top: 0;
+	right: 0;
+  width: 0; 
+  height: 0; 
+  border-top: 280px solid transparent;
+  border-right: 80px solid black;
+  border-bottom: 0; 
+}
+
+.maxHeight {
+	height: 280px;
+}
+
+.slantBak {
+    background: url('../img/img_8105_crop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.momentumBak {
+    background: url('../img/img_8257_momentum3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.padding0 {
+	padding: 0;
+}
+
+.padding5 {
+	padding: 3% 0;
+}
+
+h1 {
+	color: black;
+	font-size: xx-large;
+	font-weight: bold;
+	line-height: 1.3;
+	margin: 3% 8% 0% 8%;
+}
+
+h2 {
+	font-size: xx-large;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: x-large;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: white;
+	font-size: x-large;
+	text-transform: uppercase;
+	margin:	0;
+	padding: 10% 0 0 10%; /*top right bottom left*/
+}
+
+h5 {
+	font-size: large;
+	font-weight: bold;
+}
+
+p {
+	/* content */
+	font-size: medium;
+	line-height: 1.7;
+	/* border */
+	/* padding */
+	/* margin */
+	margin: 2% auto;
+}
+
+.width80 {
+	width: 80%;
+}
+
+.center {
+	text-align: center;
+}
+
+.momentumHeadline {
+	position: absolute;
+	text-align: center;
+	top: 5%;
+	left: 40%;
+}
+
+.momentumRed {
+	color: rgb(203,53,36);
+	font-size: 3em;
+	padding-top: 0.5%;
+	padding-bottom: 1%;
+}
+
+.momentumBlurbTxt {
+	/*position: relative;*/
+	/*top: 50%;*/
+	font-size: large;
+	line-height: 1.5;
+	padding-top: 2%;
+	padding-bottom: 1%;
+}
+
+.momentumTxt {
+	position: absolute;
+	font-size: large;
+}
+
+/* Styling for homepage momentum bullet list */
+.momentumUL {
+	padding: 0 5%;
+	margin: 0;
+}
+
+.momentumBlurbHead {
+	text-transform: uppercase;
+	/*margin: -1% 0;*/
+	/*padding: 0;*/
+}
+
+.footerFont {
+	color: white;
+}
+
+.footerBak {
+    background: url('../img/blackBak.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 700px) {
+	.headlineTxt {
+		font-size: x-large;
+	}
+	.headlineTxtHome {
+		left: 4%;
+	}
+	.headlineTxt2 {
+		font-size: small;
+	}
+	.headlineBtn {
+    /* For mobile phones: */
+  	display: none;
+	}
+	.red-bar {
+		color: rgb(203,53,36);
+	}
+	h1, h2 {
+		font-size: large;
+	}
+	p {
+		font-size: small;
+	}
+	.slantBoxRed, .slantBoxBlk {
+		padding: 3%;
+	}
+	.joinUsBtn, .FBbutton {
+		font-size: large;
+	}
+	.momentumRed {
+		font-size: 2em;
+	}
+}
+

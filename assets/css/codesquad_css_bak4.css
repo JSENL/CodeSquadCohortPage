@@ -1,0 +1,371 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: medium;
+}
+
+.border1 {
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.top-red-line {
+	height: 5px;
+	background-color: rgb(203,53,36);
+}
+
+.navbar {
+	font-size: 1.1em;
+	margin-bottom: 0;
+}
+
+.active {
+	background-color: rgb(203,53,36);
+}
+
+.navbar-default {
+	border-style: none;
+	background-color: white;
+}
+
+.navbar-nav li {
+	/*top right bottom left*/
+	/*padding: 3% 1% 3% 1%;*/
+	padding: 10px 15px;
+}
+
+/*.navbar-nav li a {
+	padding: 3% 5%;
+}*/
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: rgb(203,53,36);
+	color: white;
+}
+
+.navbar-brand {
+	padding: 0;	
+}
+
+img {
+	padding: 0;
+	margin: 0;
+}
+
+.headlineImg {
+	position: relative;
+}
+
+.headlineTxt {
+	position: absolute;
+	color: white;
+	font-weight: 700;
+	font-size: 3.9vw;
+	letter-spacing: 2.3px;
+  text-shadow: 1px 1px black;
+}
+
+.headlineTxtHome {
+	top: 37%;
+	left: 12.5%;
+}
+
+.headlineTxt2 {
+	/* Sub-head */
+	font-size: 2.4vw;
+	left: 10%;
+}
+
+.red-bar {
+	color: white;
+	font-size: medium;
+	background-color: rgb(203,53,36);
+	text-align: center;
+	padding: 1%;
+	margin: 0 auto;
+}
+
+.headlineTxtBiz {
+	top: 37%;
+	left: 10%;
+}
+
+.headlineTxtStudents {
+	top: 32%;
+	left: 31%;
+}
+
+.headlineTxtAbout {
+	top: 44%;
+	left: 29%;
+}
+
+.headlineBtn {
+	height: 12%;
+	width: 15%;
+    text-decoration: none;
+    font-size: x-large;
+    border: none;
+    margin: 2% auto;
+    cursor: pointer;
+}
+
+.btnWht {
+	/* red text on white */
+	color: rgb(203,53,36);
+    background-color: white;
+    padding: 1% 1.4%;
+}
+
+.btnRed {
+	/* white text on red */
+	color: white;
+	background-color: rgb(203,53,36);
+}
+
+.headlineBtn1 {
+	position: absolute;
+	top: 60%;
+	left: 31%;
+}
+
+.headlineBtn2 {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	/*padding: 0.5% 1.4% 0.5% 1.4%;*/
+	padding: 0;
+}
+
+#btn1stLine {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#btn2ndLine {
+	font-size: medium;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.joinUsBtn {
+	height: 20%;
+	width: 40%;
+    text-decoration: none;
+    font-size: x-large;
+    border: none;
+    margin: 2% auto;
+    cursor: pointer;
+	position: absolute;
+	top: 75%;
+	left: 30%;
+}
+
+.slantBoxRed {
+	background-color: rgb(203,53,36);
+	color: white;
+	padding: 1.5%;
+
+}
+
+.slantBoxBlk {
+	background-color: black;
+	color: white;
+	padding: 1.5%;
+}
+
+.maxHeight {
+	height: 250px;
+}
+
+.slantBoxRed p, .slantBoxBlk p {
+	color: rgb(242,240,240);
+}
+
+.slantRed {
+	position: absolute;
+	top: 0%;
+	left: -10%;
+	width: 20%;
+    height: 130%;
+    background-color: rgb(203,53,36);
+    -ms-transform: skewX(-13deg); /* IE 9 */
+    -webkit-transform: skewX(-13deg); /* Safari */
+    transform: skewX(-13deg); /* Standard syntax */
+}
+
+.slantBlk {
+	position: absolute;
+	top: 0%;
+	left: 87%;
+	width: 30%;
+    height: 130%;
+    background-color: black;
+    -ms-transform: skewX(-13deg); /* IE 9 */
+    -webkit-transform: skewX(-13deg); /* Safari */
+    transform: skewX(-13deg); /* Standard syntax */
+}
+
+@media only screen and (max-width: 600px) {
+	.headlineTxt {
+		font-size: x-large;
+	}
+	.headlineTxtHome {
+		left: 4%;
+	}
+	.headlineTxt2 {
+		font-size: small;
+	}
+	.headlineBtn {
+    /* For mobile phones: */
+  	display: none;
+	}
+	.red-bar {
+		color: rgb(203,53,36);
+	}
+	.slantBoxRed, .slantBoxBlk {
+		padding: 3%;
+	}
+}
+
+h1 {
+	color: black;
+	font-size: x-large;
+	/*font-weight: 900;*/
+	line-height: 1.3;
+	margin: 3% 8% 0% 8%;
+}
+
+h2 {
+	/*color: black;*/
+	font-size: large;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: x-large;
+	font-weight: bold;
+	text-transform: uppercase;
+/*	margin: 11% auto 5% auto; */
+}
+
+h4 {
+	color: white;
+	font-size: x-large;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin:	0;
+	padding: 10% 0 0 10%; /*top right bottom left*/
+}
+
+h5 {
+	font-size: large;
+	font-weight: bold;
+}
+
+p {
+	/* content */
+	line-height: 1.7;
+	/* border */
+	/* padding */
+	/* margin */
+	margin: 2% auto;
+}
+
+.width80 {
+	width: 80%;
+}
+
+.center {
+	text-align: center;
+}
+
+.momentumTxt {
+	position: absolute;
+	font-weight: 700;
+	font-size: large;
+}
+
+.momentumHeadline {
+	position: absolute;
+	/*text-align: center;*/
+	top: 6%;
+	left: 40%;
+}
+
+.momentumTopLeftRed {
+	color: rgb(203,53,36);
+	font-size: 3vw;
+	top: 18%;
+	left: 10%;
+}
+
+.momentumTopLeftBlack {
+	top: 20%;
+	left: 18%;
+}
+
+.momentumTopRightRed {
+	color: rgb(203,53,36);
+	font-size: 3vw;
+	top: 18%;
+	left: 60%;
+}
+
+.momentumTopRightBlack {
+	top: 20%;
+	left: 69%;
+}
+
+.momentumCtrRed {
+	color: rgb(203,53,36);
+	font-size: 3vw;
+	top: 38%;
+	left: 36%;
+}
+
+.momentumCtrBlack {
+	top: 40.5%;
+	left: 43%;
+}
+
+/* Styling for homepage momentum bullet list */
+.momentumUL {
+	padding: 0 5%;
+	margin: 0;
+}
+
+.momentumBlurbHead {
+	text-transform: uppercase;
+	/*margin: -1% 0;*/
+	/*padding: 0;*/
+}
+
+.momentumBottomLeftRed {
+	color: rgb(203,53,36);
+	font-size: 3vw;
+	top: 68%;
+	left: 10%;
+}
+
+.momentumBottomLeftBlack {
+	top: 70%;
+	left: 18%;
+}
+
+.momentumBottomRightRed {
+	color: rgb(203,53,36);
+	font-size: 3vw;
+	top: 68%;
+	left: 60%;
+}
+
+.momentumBottomRightBlack {
+	top: 70%;
+	left: 69%;
+}
+

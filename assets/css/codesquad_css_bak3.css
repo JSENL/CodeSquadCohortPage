@@ -1,0 +1,350 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: medium;
+}
+
+.border1 {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.top-red-line {
+	height: 5px;
+	background-color: rgb(203,53,36);
+}
+
+.navbar {
+	font-size: 1.1em;
+	margin-bottom: 0;
+}
+
+.active {
+	background-color: rgb(203,53,36);
+}
+
+.navbar-default {
+	border-style: none;
+	background-color: white;
+}
+
+.navbar-nav li {
+	/*top right bottom left*/
+	/*padding: 3% 1% 3% 1%;*/
+	padding: 10px 15px;
+}
+
+/*.navbar-nav li a {
+	padding: 3% 5%;
+}*/
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: rgb(203,53,36);
+	color: white;
+}
+
+.navbar-brand {
+	padding: 0;	
+}
+
+img {
+	margin: 0 auto;
+}
+
+.headlineImg {
+	position: relative;
+}
+
+.headlineTxt {
+	position: absolute;
+	color: white;
+	font-weight: 700;
+	font-size: 3.9vw;
+	letter-spacing: 2.3px;
+  text-shadow: 1px 1px black;
+}
+
+.headlineTxtHome {
+	top: 37%;
+	left: 12.5%;
+}
+
+.headlineTxt2 {
+	/* Sub-head */
+	font-size: 2.4vw;
+	left: 10%;
+}
+
+.red-bar {
+	color: white;
+	font-size: medium;
+	background-color: rgb(203,53,36);
+	text-align: center;
+	padding: 1%;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+	.headlineTxt {
+		font-size: x-large;
+	}
+	.headlineTxtHome {
+		left: 4%;
+	}
+	.headlineTxt2 {
+		font-size: small;
+	}
+	.headlineBtn {
+    /* For mobile phones: */
+  	display: none;
+	}
+	.red-bar {
+		color: rgb(203,53,36);
+	}
+}
+
+.headlineTxtBiz {
+	top: 37%;
+	left: 10%;
+}
+
+.headlineTxtStudents {
+	top: 32%;
+	left: 31%;
+}
+
+.headlineTxtAbout {
+	top: 44%;
+	left: 29%;
+}
+
+.headlineBtn {
+	width: 15%;
+	height: 7%;
+	line-height: 7%;
+    text-decoration: none;
+    font-size: 1.7vw;
+    border: none;
+    padding: 2% 1.4%;
+    margin: 2% auto;
+    cursor: pointer;
+}
+
+.btnWht {
+	/* red text on white */
+	color: rgb(203,53,36);
+    background-color: white;
+}
+
+.btnRed {
+	/* white text on red */
+	color: white;
+	background-color: rgb(203,53,36);
+}
+
+.headlineBtn1 {
+	position: absolute;
+	top: 60%;
+	left: 31%;
+}
+
+.headlineBtn2 {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	padding: 1.4% 1.4% 2.6% 1.4%;
+}
+
+#btn2ndLine {
+	font-size: 1.1vw;
+	margin: 0;
+	width: 100%;
+	padding: 5% 0;
+	text-align: center;
+	
+}
+
+h1 {
+	color: black;
+	font-size: x-large;
+	/*font-weight: 900;*/
+	line-height: 1.3;
+}
+
+h2 {
+	/*color: black;*/
+	font-size: large;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: x-large;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h4 {
+	color: white;
+	font-size: x-large;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin:	0;
+	padding: 10% 0 0 10%; /*top right bottom left*/
+}
+
+h5 {
+	font-size: large;
+	font-weight: bold;
+}
+
+p {
+	/* content */
+	line-height: 1.7;
+	/* border */
+	/* padding */
+	/* margin */
+	margin: 2% auto;
+}
+
+.width80 {
+	width: 80%;
+}
+
+.center {
+	text-align: center;
+}
+
+.slantBoxRed {
+	background-color: rgb(203,53,36);
+	color: white;
+}
+
+.slantBoxBlk {
+	background-color: black;
+	color: rgb(173,158,171);
+}
+
+.slantBoxImg {
+	padding: 0;
+}
+
+.maxHeight {
+	height: 300px;
+}
+
+.slantRed {
+	position: absolute;
+	top: 0%;
+	left: -10%;
+	width: 19%;
+    height: 100%;
+    background-color: rgb(203,53,36);
+    -ms-transform: skewX(-13deg); /* IE 9 */
+    -webkit-transform: skewX(-13deg); /* Safari */
+    transform: skewX(-13deg); /* Standard syntax */
+}
+
+.slantBlk {
+	position: absolute;
+	top: 0%;
+	left: 90%;
+	width: 19%;
+    height: 100%;
+    background-color: black;
+    -ms-transform: skewX(-13deg); /* IE 9 */
+    -webkit-transform: skewX(-13deg); /* Safari */
+    transform: skewX(-13deg); /* Standard syntax */
+}
+
+/*@media only screen and (max-width: 768px) {*/
+    /* For mobile phones: */
+    /*[class*="col-"] {*/
+        /*width: 100%;*/
+    /*}*/
+/*}*/
+
+.momentumTxt {
+	position: absolute;
+	font-weight: 700;
+	font-size: large;
+}
+
+.momentumHeadline {
+	position: absolute;
+	top: 6%;
+	left: 40%;
+}
+
+.momentumTopLeftRed {
+	color: rgb(203,53,36);
+	font-size: 3vw;
+	top: 18%;
+	left: 10%;
+}
+
+.momentumTopLeftBlack {
+	top: 20%;
+	left: 18%;
+}
+
+.momentumTopRightRed {
+	color: rgb(203,53,36);
+	font-size: 3vw;
+	top: 18%;
+	left: 60%;
+}
+
+.momentumTopRightBlack {
+	top: 20%;
+	left: 69%;
+}
+
+.momentumCtrRed {
+	color: rgb(203,53,36);
+	font-size: 3vw;
+	top: 38%;
+	left: 36%;
+}
+
+.momentumCtrBlack {
+	top: 40.5%;
+	left: 43%;
+}
+
+/* Styling for homepage momentum bullet list */
+.momentumUL {
+	padding: 0 5%;
+	margin: 0;
+}
+
+.momentumBlurbHead {
+	text-transform: uppercase;
+	/*margin: -1% 0;*/
+	/*padding: 0;*/
+}
+
+.momentumBottomLeftRed {
+	color: rgb(203,53,36);
+	font-size: 3vw;
+	top: 68%;
+	left: 10%;
+}
+
+.momentumBottomLeftBlack {
+	top: 70%;
+	left: 18%;
+}
+
+.momentumBottomRightRed {
+	color: rgb(203,53,36);
+	font-size: 3vw;
+	top: 68%;
+	left: 60%;
+}
+
+.momentumBottomRightBlack {
+	top: 70%;
+	left: 69%;
+}
+
